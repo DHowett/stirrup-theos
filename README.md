@@ -2,9 +2,8 @@
 
 ## Installation
 
-```
-git clone https://github.com/DHowett/stirrup-theos $THEOS/mod/stirrup
-```
+* `git clone https://github.com/DHowett/stirrup-theos $THEOS/mod/stirrup`
+* Get a copy of stirrup signimage, place it in `$THEOS/bin`
 
 ## Usage
 
