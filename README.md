@@ -10,8 +10,8 @@
 ### Makefile
 
 ```make
-export TARGET  = stirrup
 export MODULES = stirrup
+export TARGET  = stirrup
 
 # Due to a quirk, stirrup signimage requires a PEM-encoded key.
 export PACKAGE_SIGNING_KEY  = signing.key.pem
