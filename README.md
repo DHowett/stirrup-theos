@@ -10,10 +10,12 @@
 ### Makefile
 
 ```make
-export MODULES=stirrup
-export PACKAGE_FORMAT=stripk
-export PACKAGE_SIGNING_KEY=private.key.pem
-export PACKAGE_SIGNING_CERT=certificate.crt
+export TARGET  = stirrup
+export MODULES = stirrup
+export PACKAGE_SIGNING_KEY  = signing.key.pem
+export PACKAGE_SIGNING_CERT = signing.crt
+export PACKAGE_DEPLOY_KEY   = deploy.key.pem
+export PACKAGE_DEPLOY_CERT  = deploy.crt
 
 include theos/makefiles/common.mk
 ```
